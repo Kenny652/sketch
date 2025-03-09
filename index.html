@@ -15,11 +15,12 @@
         <button id="popup" class="btn btn-outline-primary">Select</button>
     </div>
     <div>
+        <p id="message"></p>
         <div class="divcontainer"></div>
         <div class="footer">
-            <button class="btn btn-dark">Black</button>
-            <button class="btn btn-outline-secondary">Random</button>
-            <button class="btn btn-outline-secondary">Reset</button>
+            <button class="btn btn-dark" onclick="getColor('black')">Black</button>
+            <button class="btn btn-outline-secondary" onclick="getColor('random')">Random</button>
+            <button class="btn btn-outline-secondary" onclick="resetBoard()">Reset</button>
         </div>
     </div>
 </body>
